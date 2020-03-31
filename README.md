@@ -1,5 +1,5 @@
 # JSInterviewQnA
-## Interview questions and detailed tutorials
+## Interview questions and detailed illustration
 
 ### Generators
 ### 1. What is a Generator in Javascript?
