@@ -46,7 +46,7 @@
 5. What do you mean by <b>Closure</b> in Javascript?   
    A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function’s variables — a scope chain.  
    **Kyle Sympson definition**   
-   Closure is when a function 'remembers' its lexical scope event when the function is executed outside that lexical scope.   
+   Closure is when a function 'remembers' its lexical scope even when the function is executed outside that lexical scope.   
    ```javascript
    // outer function
    function outer() {
