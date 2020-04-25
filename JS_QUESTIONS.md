@@ -61,7 +61,7 @@
       //returns inner function
       return inner;
    }
-   let x = inner() // x will be the inner function now
+   let x = outer() // x will be the inner function now
    // calling x() will trigger inner function
    x() // output = 30;
    // even inner function is executed outside of it's lexical scope, it'll have a reference to the value b, and this is closure
