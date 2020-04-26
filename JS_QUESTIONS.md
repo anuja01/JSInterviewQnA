@@ -68,3 +68,18 @@
    
    ```     
    Note: https://medium.com/@prashantramnyc/javascript-closures-simplified-d0d23fa06ba4
+   
+6. explain `Object.assign()`   
+It copies all enumerable own properties from one or more source objects to a target object. It returns the target object.
+```javascript
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+
+const returnedTarget = Object.assign(target, source);
+
+console.log(target);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+console.log(returnedTarget);
+// expected output: Object { a: 1, b: 4, c: 5 }
+```
