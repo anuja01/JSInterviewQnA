@@ -12,5 +12,8 @@
 
    Example: https://github.com/anuja01/JSInterviewQnA/blob/master/Generators/index.js
 
-   Read more: https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e
+   Read more: https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e   
+   https://medium.com/@psak.works/redux-saga-react-native-2b84463d7afe.   
+   
+   my example: https://github.com/anuja01/apply-saga-techsith
 
