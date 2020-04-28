@@ -24,9 +24,9 @@ var gen = generate()
 console.log(gen)
 
 console.log(gen.next()) // invoke generator until first yield
-console.log(' --  called up to first yield and paused')
+console.log(' --  called up to first yield and paused. output =  {value: 1, done: false}')
 console.log(gen.next()) // invoke generator until next yield from where it finished before
-console.log(' --  called upto second yield from where it stopped in first yield')
+console.log(' --  called upto second yield from where it stopped in first yield. output={value: 2, done: false}')
 console.log(gen.next())
 console.log(' -- end of execution')
 

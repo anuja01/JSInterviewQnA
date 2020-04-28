@@ -9,7 +9,7 @@
    MORE: https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var
 
 2. What does ```new``` keyword do in Javascript?   
-   creates a constructor function, and make ```this``` points to the object created.   
+   creates a constructor function(function treated like a constructor), and make ```this``` points to the object created.   
    eg: ```this.name``` inside the constructor function will refer name within the object, not ```window.name```
 
    ```
@@ -24,7 +24,11 @@
    console.log(car1.make);
    // expected output: "Eagle"
    ```
-   MORE: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
+   MORE: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new   
+   The new operator also makes anything we put on `Car.prototype` available on the `car1` object.   
+   This is how people emulated classes before JavaScript added them directly.
+
+
 
 3. What are <b>Object Prototypes</b> ?
    Object prototypes are a mechanisam JS use to inherit properties from one another (Everyting in JS is a object)   
@@ -83,3 +87,15 @@ console.log(target);
 console.log(returnedTarget);
 // expected output: Object { a: 1, b: 4, c: 5 }
 ```
+
+7. What are the differences between Arrow functions and normal functions   
+   1. Arrow functions don't have their own `this`
+   2. Arrow functions don't have an argument binding
+      ```javascript
+      function s () {
+         console.log(arguments)
+      }
+      s(1,2,3,4) // will output passed arguments
+      // 'arguments' is not available with arrow functions
+      ```
+   
