@@ -76,3 +76,18 @@ good read: https://medium.com/@rajaraodv/two-quick-ways-to-reduce-react-apps-siz
 -caching
 -use CDN
 -Check with lighthouse
+
+### 7.What are CSS preprocessors?
+Allowed to write more dynamic css
+.LESS -> Preprocessor -> CSS
+
+### 8. Advantages of using css preprocessors?
+- increase the reusability
+- more organized, reduce redundant code
+- adding browser compatibility while compiling with preprocessor (use mixin)
+- combile css to one single import
+
+### 9. Features provided by .LESS
+ Note: http://lesscss.org/
+ How to use: http://lesscss.org/usage/
+
