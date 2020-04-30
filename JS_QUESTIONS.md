@@ -1,6 +1,6 @@
 # Random Javascript questions
 
-1. What is the difference between ```let``` and ```var``` ?   
+### 1. What is the difference between ```let``` and ```var``` ?   
    <b>scope</b>  
    ```let``` is block scoped - scoped to the immediate enclosing block denoted by { }    
    ```var``` is function scoped - scoped to the immediate function body   
@@ -8,7 +8,7 @@
    ```let``` doesn't hoist to the top, unlike ```var```   
    MORE: https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var
 
-2. What does ```new``` keyword do in Javascript?   
+### 2. What does ```new``` keyword do in Javascript?   
    creates a constructor function(function treated like a constructor), and make ```this``` points to the object created.   
    eg: ```this.name``` inside the constructor function will refer name within the object, not ```window.name```
 
@@ -30,12 +30,12 @@
 
 
 
-3. What are <b>Object Prototypes</b> ?
+### 3. What are <b>Object Prototypes</b> ?
    Object prototypes are a mechanisam JS use to inherit properties from one another (Everyting in JS is a object)   
    <b>Prototype</b> contains the properties and methods inherited from the parent.   
    When you declare an array, all the properties and methods are from prototype inherited from <b>Array</b> class. (sort(), reverse(), split())
 
-4. What is <b>Scope</b> in Javascript?
+### 4. What is <b>Scope</b> in Javascript?
    Scope determines the accessibility (visibility) of variables.   
    In JavaScript there are two types of scope
    - Local scope   
@@ -47,7 +47,7 @@
 
    More: https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript
 
-5. What do you mean by <b>Closure</b> in Javascript?   
+### 5. What do you mean by <b>Closure</b> in Javascript?   
    A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function’s variables — a scope chain.  
    **Kyle Sympson definition**   
    Closure is when a function 'remembers' its lexical scope even when the function is executed outside that lexical scope.   
@@ -73,7 +73,7 @@
    ```     
    Note: https://medium.com/@prashantramnyc/javascript-closures-simplified-d0d23fa06ba4
    
-6. explain `Object.assign()`   
+### 6. explain `Object.assign()`   
 It copies all enumerable own properties from one or more source objects to a target object. It returns the target object.
 ```javascript
 const target = { a: 1, b: 2 };
@@ -88,7 +88,7 @@ console.log(returnedTarget);
 // expected output: Object { a: 1, b: 4, c: 5 }
 ```
 
-7. What are the differences between Arrow functions and normal functions   
+### 7. What are the differences between Arrow functions and normal functions   
    1. Arrow functions don't have their own `this`
    2. Arrow functions don't have an argument binding
       ```javascript
