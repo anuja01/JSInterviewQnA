@@ -67,15 +67,15 @@ null === undefined -> false
         Local storage with React: https://www.robinwieruch.de/local-storage-react  
 
 ### 6. What can you do to improve page performance?
--Reduce number of Network calls
--Enable Gzip compression (for HTML, CSS) -  add it as a build configuration   
+-Reduce number of Network calls.  
+-Enable Gzip compression (for HTML, CSS) -  add it as a build configuration     
 good read: https://medium.com/@rajaraodv/two-quick-ways-to-reduce-react-apps-size-in-production-82226605771a
 
--Minify Javascript, CSS, HTML - online tools
--use vector graphics (SVG)
--caching
--use CDN
--Check with lighthouse
+-Minify Javascript, CSS, HTML - online tools.  
+-use vector graphics (SVG).  
+-caching.  
+-use CDN.  
+-Check with lighthouse.  
 
 ### 7.What are CSS preprocessors?
 Allowed to write more dynamic css
