@@ -98,4 +98,6 @@ console.log(returnedTarget);
       s(1,2,3,4) // will output passed arguments
       // 'arguments' is not available with arrow functions
       ```
-   
+### 8. What is the differences between `null` and `undefined`
+`null` is an initialized and assigned value to a variable which means empty.  
+`undefined` means varibale is declared but it's value is not initialized.    
