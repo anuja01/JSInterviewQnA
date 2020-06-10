@@ -99,5 +99,5 @@ console.log(returnedTarget);
       // 'arguments' is not available with arrow functions
       ```
 ### 8. What is the differences between `null` and `undefined`
-`null` is an initialized and assigned value to a variable which means empty.  
-`undefined` means varibale is declared but it's value is not initialized.    
+`null` is an initialized and assigned value to a variable which means empty. type of `null` is `object`.  
+`undefined` means varibale is declared but it's value is not initialized. Type of `undefined` is `undefined`.  
