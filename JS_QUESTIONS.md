@@ -70,7 +70,8 @@
    x() // output = 30;
    // even inner function is executed outside of it's lexical scope, it'll have a reference to the value b, and this is closure
    
-   ```     
+   ```.  
+   Withour closures you can't pass around functions in javascript :) 
    Note: https://medium.com/@prashantramnyc/javascript-closures-simplified-d0d23fa06ba4
    
 ### 6. explain `Object.assign()`   
