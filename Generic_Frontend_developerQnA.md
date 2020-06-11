@@ -92,7 +92,7 @@ Allowed to write more dynamic css
  How to use: http://lesscss.org/usage/
 
 ### 10. Difference between `inline`, `block` and `inline-block`
-`inline` - arrange elements horizontally, don't respect margins and paddings.   
+`inline` - arrange elements horizontally, don't respect margins and paddings, and can't control width and height.    
 `block` - arrange elements vertically, and respect margins and paddings.   
-`inline-block` - arrange elements horizontally as `inline`, but respect margins and paddings like `block`.  
+`inline-block` - arrange elements horizontally as `inline`, but respect margins and paddings like `block`, and can control width and height.    
 
