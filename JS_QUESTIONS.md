@@ -102,3 +102,11 @@ console.log(returnedTarget);
 ### 8. What is the differences between `null` and `undefined`
 `null` is an initialized and assigned value to a variable which means empty. type of `null` is `object`.  
 `undefined` means varibale is declared but it's value is not initialized. Type of `undefined` is `undefined`.  
+
+### 9. Explain `call`, `apply`, `bind` in javascript.   
+All are used to explicitly bind the execution scope/context.   
+`call` invokes the function and allows you to pass in arguments one by one.   
+`apply` invokes the function and allows you to pass in arguments as an array.   
+`bind` returns a new function, allowing you to pass in a this array and any number of arguments.    
+Good read: https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind#:~:text=Use%20.,for%20calling%20the%20original%20function.   
+
