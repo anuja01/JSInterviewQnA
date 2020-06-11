@@ -70,9 +70,9 @@
    x() // output = 30;
    // even inner function is executed outside of it's lexical scope, it'll have a reference to the value b, and this is closure
    
-   ```.  
-   Withour closures you can't pass around functions in javascript :) 
-   Note: https://medium.com/@prashantramnyc/javascript-closures-simplified-d0d23fa06ba4
+   ```
+   Note: https://medium.com/@prashantramnyc/javascript-closures-simplified-d0d23fa06ba4.  
+   Without closures you can't pass around functions in javascript :) 
    
 ### 6. explain `Object.assign()`   
 It copies all enumerable own properties from one or more source objects to a target object. It returns the target object.
